@@ -39,8 +39,8 @@
   name = "github.com/hashicorp/go-plugin"
 
 [[constraint]]
-  name = "github.com/heptio/ark"
-  branch = "master"
+  name = "github.com/heptio/velero"
+  version = "v0.11.0"
 
 [[constraint]]
   name = "github.com/sirupsen/logrus"

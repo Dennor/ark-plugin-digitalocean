@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-BINS = $(wildcard ark-*)
+BINS = $(wildcard velero-*)
 
-REPO ?= github.com/StackPointCloud/ark-plugin-digitalocean
+REPO ?= github.com/StackPointCloud/velero-plugin-digitalocean
 
 BUILD_IMAGE ?= gcr.io/heptio-images/golang:1.9-alpine3.6
 
-IMAGE ?= gcr.io/stackpoint-public/ark-blockstore-digitalocean
+IMAGE ?= gcr.io/stackpoint-public/velero-blockstore-digitalocean
 
 ARCH ?= amd64
 
